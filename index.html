@@ -16,5 +16,93 @@
     <script src="/js/main.js" defer></script>
   </head>
 
-  <body></body>
+  <body>
+    <div class="login-bar">
+      <ul class="login-list">
+        <li>로그인</li>
+        <li>회원가입</li>
+        <li>고객센터</li>
+        <li>쿠팡플레이</li>
+        <li>제휴마케팅</li>
+      </ul>
+    </div>
+    <div class="categori-wrap">
+      <div class="categori-bar">
+        <button class="button--category">
+          <img src="./assets/icon/hamburger.svg" alt="카테고리 버튼" />
+          <p>카테고리</p>
+        </button>
+      </div>
+      <h1 class="logo">coupang</h1>
+      <form action="/">
+        <div class="search-box">
+          <select class="search">
+            <option value="전체">전체</option>
+          </select>
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M24 17H15L19.6957 23L24 17Z" fill="#767676" />
+          </svg>
+          <input
+            class="text"
+            type="search"
+            placeholder="찾고 싶은 상품을 검색해보세요!"
+          />
+
+          <button class="search-btn">
+            <img class="search-img" src="./assets/icon/search.svg" alt="검색" />
+          </button>
+          <button class="mic-btn">
+            <img class="mic-img" src="./assets/icon/mic.svg" alt="음성" />
+          </button>
+        </div>
+      </form>
+      <div class="myCoupang">
+        <a href="/">
+          <button><p class="myCoupang-text">마이쿠팡</p></button>
+        </a>
+      </div>
+
+      <div class="cart cart--empty">
+        <a href="/">
+          <button><p class="cart-text">장바구니</p></button>
+        </a>
+        <p class="cart-get">0</p>
+      </div>
+
+      <div class="link-area">
+        <ul>
+          <li>
+            <a href="/">
+              <img src="./assets/icon/icon-rocket.svg" alt="로켓배송" />
+              로켓배송</a
+            >
+          </li>
+          <li>
+            <a href="/">
+              <img src="./assets/icon/icon-fresh.svg" alt="로켓프레시" />
+              로켓프레시</a
+            >
+          </li>
+          <li>
+            <a href="/"
+              >2022년 설날
+              <img src="./assets/icon/new.svg" alt="new" />
+            </a>
+          </li>
+          <li><a href="/">로켓직구</a></li>
+          <li><a href="/">골드박스</a></li>
+          <li><a href="/">정기배송</a></li>
+          <li><a href="/">이벤트/쿠폰</a></li>
+          <li><a href="/">기획전</a></li>
+          <li><a href="/">여행티켓</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
