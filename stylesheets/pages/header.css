@@ -1,14 +1,14 @@
 /* 헤더 */
-*{
+* {
   box-sizing: border-box;
   list-style: none;
 }
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
 
-.login-bar{
+.login-bar {
   margin: 0 auto;
   width: 1920px;
   height: 34px;
@@ -22,79 +22,82 @@ body{
   flex-direction: row;
   align-items: center;
   font-size: 12px;
-  font-weight: 300;
   margin: 0;
   padding: 0;
 }
 
-.login-list li:nth-child(1) { /* 로그인 */
-  
+.login-list li:nth-child(1) {
+  /* 로그인 */
+
   order: 3;
 }
 
-.login-list li:nth-child(2) { /* 회원가입 */
+.login-list li:nth-child(2) {
+  /* 회원가입 */
   order: 4;
 }
 
-.login-list li:nth-child(3) { /* 고객센터 */
+.login-list li:nth-child(3) {
+  /* 고객센터 */
   order: 5;
 }
 
-.login-list li:nth-child(4) { /* 쿠팡플레이 */
+.login-list li:nth-child(4) {
+  /* 쿠팡플레이 */
   order: 1;
 }
 
-.login-list li:nth-child(5) { /* 제휴마케팅 */
+.login-list li:nth-child(5) {
+  /* 제휴마케팅 */
   order: 2;
   margin-right: 728px;
 }
 
-.login-list li{
+.login-list li {
   margin-right: 8px;
 }
 
-.categori-wrap{
+.categori-wrap {
   width: 1920px;
   height: 116px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  margin: 0 auto;
 }
 
-
-
-.button--category{
- 
+.button--category {
   width: 110px;
   height: 116px;
   background-color: var(--color-blue-600);
   border: 0;
   font-size: 12px;
-  font-weight: 300;
   color: white;
-  
+}
 
+.btn-pd {
+  padding: 12px 0;
+  display: block;
 }
 
 .categori-bar .button--category img {
   width: 30px;
   height: 30px;
   margin-top: 30px;
-  
 }
 
-.logo{
+.logo {
   width: 176px;
   height: 40px;
   background-repeat: no-repeat;
-  background-image: url('/assets/logo/logo.svg');
+  background-image: url("/assets/logo/logo.svg");
   background-size: cover;
   text-indent: -9999px;
   margin: 0px 30px 0px 40px;
 }
 
-.search-box{
+.search-box {
   width: 516px;
   height: 43px;
   border: 1px solid var(--color-blue-600);
@@ -108,7 +111,7 @@ select {
   background: none;
   border: none;
 }
-.search{
+.search {
   position: relative;
   top: -15px;
   left: 12px;
@@ -119,21 +122,21 @@ select {
   color: var(--color-gray-700);
 }
 
-
-.text{
+.text {
   width: 301px;
   height: 40px;
   position: absolute;
   border: none;
 }
 
-.text::placeholder{
+.text::placeholder {
   font-size: 12px;
   color: var(--color-gray-600);
   font-weight: 300;
 }
 
-.search-btn, .mic-btn{
+.search-btn,
+.mic-btn {
   border: none;
   float: right;
   background-color: white;
@@ -142,14 +145,15 @@ select {
   padding: 5px;
 }
 
-.myCoupang,.cart{
+.myCoupang,
+.cart {
   width: 90px;
   height: 50px;
   position: relative;
   display: inline-block;
   text-align: center;
 }
-.cart{
+.cart {
   width: 50px;
   height: 50px;
   position: relative;
@@ -158,7 +162,7 @@ select {
 }
 
 .myCoupang button {
-  background-image: url('/assets/icon/my-coupang.svg');
+  background-image: url("/assets/icon/my-coupang.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 40px;
@@ -166,8 +170,8 @@ select {
   background-color: white;
   border: 0;
 }
-.myCoupang-text{
-  margin:0;
+.myCoupang-text {
+  margin: 0;
   padding: 0;
   bottom: -6px;
   left: 25%;
@@ -176,11 +180,10 @@ select {
   width: 45px;
   height: 14px;
   font-size: 12px;
-  font-weight: 300;
 }
 
-.cart-text{
-  margin:0;
+.cart-text {
+  margin: 0;
   padding: 0;
   text-align: center;
   position: absolute;
@@ -188,24 +191,20 @@ select {
   width: 45px;
   height: 14px;
   font-size: 12px;
-  font-weight: 300;
   bottom: -6px;
   left: 25%;
   position: absolute;
   text-align: center;
-
 }
 
-
 .cart button {
-  background-image: url('/assets/icon/cart.svg');
+  background-image: url("/assets/icon/cart.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 40px;
   height: 40px;
   background-color: white;
   border: 0;
-  
 }
 .cart button ul {
   width: 40px;
@@ -216,7 +215,7 @@ select {
   flex-direction: row;
 }
 
-.cart-get{
+.cart-get {
   padding: 0;
   margin: 0;
   width: 18px;
@@ -234,31 +233,29 @@ select {
   right: 0;
 }
 
-.link-area{
+.link-area {
   width: 764px;
   height: 26px;
   position: absolute;
   bottom: 0;
-
 }
 
-.link-area ul { 
+.link-area ul {
   margin: 0;
   padding: 0;
 }
 
-
-.link-area ul li{
+.link-area ul li {
   display: inline-block;
   padding: 6px 14px;
   font-size: 12px;
-  font-weight: 300;
 }
-.cart:hover{
+.cart:hover {
   width: 288px;
   height: 99px;
   background-color: white;
   border: 1px solid var(--color-gray-100);
 }
 
-
+.is--active {
+}
